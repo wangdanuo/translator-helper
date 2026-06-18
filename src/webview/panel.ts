@@ -244,7 +244,7 @@ export function getWebviewContent(context: vscode.ExtensionContext): string {
     </style>
 </head>
 <body>
-    <h1>👽 翻译助手</h1>
+    <h1>☕️ 翻译助手</h1>
 
     <div class="card">
         <span class="card-title">📝 输入中文</span>

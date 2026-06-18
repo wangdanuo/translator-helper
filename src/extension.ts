@@ -6,7 +6,7 @@ import { getWebviewContent } from './webview/panel';
  * 将翻译界面嵌入 VSCode 侧边栏
  */
 class TranslatorSidebarProvider implements vscode.WebviewViewProvider {
-    public static readonly viewType = 'translator.sidebar.view';
+    public static readonly viewType = 'codenames.sidebar.view';
 
     constructor(private readonly context: vscode.ExtensionContext) {}
 

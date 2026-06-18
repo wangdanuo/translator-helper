@@ -68,7 +68,7 @@ class TranslatorSidebarProvider {
         });
     }
 }
-TranslatorSidebarProvider.viewType = 'translator.sidebar.view';
+TranslatorSidebarProvider.viewType = 'codenames.sidebar.view';
 // ==================== 翻译逻辑 ====================
 const TRANSLATE_API = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=zh-CN&tl=en&dt=t&q=';
 async function handleTranslate(text, webview, context) {

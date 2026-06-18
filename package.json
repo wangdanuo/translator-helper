@@ -1,19 +1,19 @@
 {
-	"name": "translator-helper",
-	"displayName": "Translator Helper",
+	"name": "codenames",
+	"displayName": "CodeNames",
 	"description": "中英文翻译 & 命名格式生成助手，支持自定义词典、部分匹配，一键生成 6 种常用命名格式",
-	"version": "0.0.2",
+	"version": "0.0.4",
 	"publisher": "wangdanuo",
 	"license": "MIT",
-  "icon": "resources/icon.png",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wangdanuo/translator-helper.git"
-  },
-  "bugs": {
-    "url": "https://github.com/wangdanuo/translator-helper/issues"
-  },
-  "homepage": "https://github.com/wangdanuo/translator-helper#readme",
+	"icon": "resources/anbocaixiang.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wangdanuo/codenames.git"
+	},
+	"bugs": {
+		"url": "https://github.com/wangdanuo/codenames/issues"
+	},
+	"homepage": "https://github.com/wangdanuo/codenames#readme",
 	"engines": {
 		"vscode": "^1.75.0"
 	},
@@ -32,23 +32,23 @@
 		"词典"
 	],
 	"activationEvents": [
-		"onView:translator.sidebar.view"
+		"onView:codenames.sidebar.view"
 	],
 	"contributes": {
 		"viewsContainers": {
 			"activitybar": [
 				{
-					"id": "translator-sidebar",
-					"title": "Translator",
-					"icon": "resources/icon.svg"
+					"id": "codenames-sidebar",
+					"title": "CodeNames",
+					"icon": "resources/anbocaixiang.png"
 				}
 			]
 		},
 		"views": {
-			"translator-sidebar": [
+			"codenames-sidebar": [
 				{
 					"type": "webview",
-					"id": "translator.sidebar.view",
+					"id": "codenames.sidebar.view",
 					"name": "翻译助手"
 				}
 			]

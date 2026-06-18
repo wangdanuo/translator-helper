@@ -1,4 +1,4 @@
-# Translator Helper
+# CodeNames
 
 中英文翻译 & 命名格式生成助手
 
@@ -11,7 +11,7 @@
 
 ## 使用
 
-点击 VSCode 活动栏的 Translator 图标打开侧边栏，输入中文即可生成命名格式。
+点击 VSCode 活动栏的 CodeNames 图标打开侧边栏，输入中文即可生成命名格式。
 
 ## 自定义词典
 
