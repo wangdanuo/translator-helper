@@ -3,9 +3,9 @@
 	"displayName": "Translator Helper",
 	"description": "中英文翻译 & 命名格式生成助手，支持自定义词典、部分匹配，一键生成 6 种常用命名格式",
 	"version": "0.0.2",
-	"publisher": "YOUR_PUBLISHER_NAME",
+	"publisher": "wangdanuo",
 	"license": "MIT",
-  "icon": "resources/icon.svg",
+  "icon": "resources/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/wangdanuo/translator-helper.git"
