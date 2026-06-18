@@ -2,7 +2,7 @@
 	"name": "codenames",
 	"displayName": "CodeNames",
 	"description": "中英文翻译 & 命名格式生成助手，支持自定义词典、部分匹配，一键生成 6 种常用命名格式",
-	"version": "0.0.4",
+	"version": "0.0.6",
 	"publisher": "wangdanuo",
 	"license": "MIT",
 	"icon": "resources/anbocaixiang.png",
@@ -40,7 +40,7 @@
 				{
 					"id": "codenames-sidebar",
 					"title": "CodeNames",
-					"icon": "resources/anbocaixiang.png"
+					"icon": "resources/icon-sidebar.png"
 				}
 			]
 		},
